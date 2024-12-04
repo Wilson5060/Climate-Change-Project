@@ -1,0 +1,165 @@
+body {
+    background-image: url("../image/background 4.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: lightblue;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin: 5px 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.summary {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for focus */
+}
+
+main .container {
+    max-width: 1200px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: green;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: black;
+}
+
+main .solution {
+    background: #fff; 
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Benefits List */
+.benefits-list, .challenges-opportunities {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+.benefits-list > li, .challenges-opportunities > li {
+    margin-bottom: .5rem;
+}
+
+.benefits-list > li strong, .challenges-opportunities > li strong {
+    font-weight: bold;
+    color: #2f80ed;
+}
+
+.benefits-list ul, .challenges-opportunities ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+    margin-top: 0.5rem;
+}
+
+.gif img {
+    width: 560px; /* Sets a fixed width to match the image */
+    height: 400px;
+    border-radius: 8px; /* Optional: Rounds the corners of the image */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow to the image */
+}
+
+button {
+    background-color: #0284c7; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Removes border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounds button corners */
+    font-size: 1rem; /* Adjusts font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 15px; /* Adds spacing above the button */
+}
+
+button:hover {
+    background-color: #0369a1; /* Darker blue on hover */
+}
+
+.media-section {
+    display: flex; /* Enables a side-by-side layout */
+    gap: 20px; /* Adds space between the image and video */
+    justify-content: center; /* Centers the image and video */
+    align-items: center; /* Aligns the image and video vertically */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+}
+
+.visualization img {
+    width: 560px; /* Sets a fixed width for consistency */
+    height: 400px; /* Matches the video aspect ratio (16:9) */
+    border-radius: 8px; /* Optional: Rounds corners */
+    object-fit: cover; /* Ensures the image scales properly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for aesthetics */
+}
+
+.video iframe {
+    width: 560px; /* Sets a fixed width to match the image */
+    height: 400px; /* Matches the 16:9 aspect ratio */
+    border-radius: 8px; /* Optional: Rounds corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for aesthetics */
+}
+
